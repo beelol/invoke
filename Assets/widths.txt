@@ -1,0 +1,4 @@
+invBacking2 width: 215
+invListBacking width: 203
+invList2 width: 203
+invPanel2 width: 203

@@ -1,0 +1,4 @@
+If we want to give walls different features based on where they are facing or where they are placed,
+we can perform checks on what blocks are next to them. For example if a corner's top right diagonal is a tile
+as well as its right and top, then it is a right corner. Then we can give it the proper wooden frame for example.
+or, if a wall is between two other walls, we could give it a torch. etc.

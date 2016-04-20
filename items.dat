@@ -1,0 +1,127 @@
+ITEM:"Apple" {
+	description="Delicious!"
+	type="Food"
+	id=0000
+}
+ITEM:"Iron Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0009
+	id=0001
+}
+ITEM:"Silver Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0010
+	id=0002
+}
+ITEM:"Tin Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0011
+	id=0003
+}
+ITEM:"Copper Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0012
+	id=0004
+}
+ITEM:"Lead Dust" {
+	description="Cancerous!"
+	type="Dust"
+	refine=0013
+	id=0005
+}
+ITEM:"Gold Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0014
+	id=0006
+}
+ITEM:"Tungsten Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0015
+	id=0007
+}
+ITEM:"Magnesium Dust" {
+	description="Dust collected from an asteroid."
+	type="Dust"
+	refine=0016
+	id=0008
+}
+ITEM:"Iron Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0009
+}
+ITEM:"Silver Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0010
+}
+ITEM:"Tin Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0011
+}
+ITEM:"Copper Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0012
+}
+ITEM:"Lead Bar" {
+	description="Refined cancerous bar."
+	type="Bar"
+	id=0013
+}
+ITEM:"Gold Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0014
+}
+ITEM:"Tungsten Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0015
+}
+ITEM:"Magnesium Bar" {
+	description="Refined bar."
+	type="Bar"
+	id=0016
+}
+ITEM:"Ion Cannon" {
+	description="Stunning!"
+	weaponType="Laser"
+	damage=4
+	type="Weapon"
+	id=0017
+}
+ITEM:"Stepper Motor" {
+	description="Used for rotating weapon systems."
+	type="Component"
+	id=0018
+	ingredients=(0009:3)
+}
+ITEM:"Module Casing" {
+	description="Casing for modules."
+	type="Component"	
+	id=0019
+	ingredients=(0009:1), (0015:1)
+}
+ITEM:"Kinematic Accelerator" {
+	description="Destroy enemies by launching projectiles."
+	weaponType="Kinetic"
+	damage=20
+	type="Weapon"	
+	id=0020
+	ingredients=(0018:1), (0019:1)
+}
+ITEM:"Rotary Servo" {
+	description="Rotational driver for mechanisms."
+	type="Component"
+	id=0021
+	ingredients=(0012:2), (0009:3)
+}
+
